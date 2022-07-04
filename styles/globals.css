@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
 @layer base {
   h1 {
     @apply text-4xl;
@@ -36,6 +36,15 @@ a {
   background-size: cover;
 }
 
+
+@media (min-width:1020px) {
+  
+
+  .header{
+      background-size: cover;
+  }
+}
+
 .sb{
   border: 1px solid red;
 }
@@ -50,3 +59,8 @@ a {
   line-height: 24px;
   text-transform: uppercase;
 }
+
+
+
+
+@import 'tailwindcss/utilities';
