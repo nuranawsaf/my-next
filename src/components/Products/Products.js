@@ -2,7 +2,7 @@ import React from 'react'
 
 function Products() {
   return (
-    <div className='container mt-[200px]'>
+    <div className='container mx-auto  mt-[200px]'>
         <div className='text-center'>
             <h1 className='font-bold tracking-wider text-4xl'>Svad’s products</h1>
             <br/>
@@ -13,7 +13,7 @@ function Products() {
             <button className='c-btn' type="">LOG IN TO SEE PRICE</button>
         </div>
 
-        <div className='mt-[100px] columns-2'>
+        <div className='mt-[100px] flex flex-col lg:flex-row lg:gap-x-[222px] items-center justify-center lg:items-center'>
             <div class="bg-white rounded-lg px-6 py-[40px] shadow-xl w-[400px]">
                 
                 <img src="/Rectangle 14.png" alt=""/>

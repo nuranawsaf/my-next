@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className='bg-green'>
         
-        <div className='container grid grid-cols-3 gap-x-[82px]  mt-[100px] py-[100px] px-[100px]'>
+        <div className='container mx-auto  grid lg:grid-cols-3 gap-x-[82px]  mt-[100px] py-[100px] px-[100px] gap-y-6'>
         <div >
             <img className='h-[126px] w-auto' src="/Rectangle 19.png" alt=""/>
             <p className='mt-6'>Sligoville Agriculture Development (SVAD) is dedicated to providing fresh meat to the market.Located in the first free village of Jamaica, our goal is to increase the visibility of this historic land and to partner with its people to continue to make strides. In the land of “one love and one people” our food is an important aspect of our culture, and SVAD embodies that vision and seeks to empower others through our products.</p>

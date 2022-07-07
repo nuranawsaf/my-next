@@ -8,8 +8,8 @@ function Header() {
             <h1 className='text-3xl md:text-6xl lg:text-8xl'>The Best Price & <br/> Freshest Always.</h1>
         </div>
 
-    <div className='sb absolute  left-1/2 -translate-x-1/2 bottom-[0px] translate-y-1/2  lg:mt-6 flex flex-col lg:flex-row gap-y-2 lg:gap-y-0  lg:gap-x-4'>
-        <div className="bg-white dark:bg-slate-800 w-[330px] pt-5 pb-5  px-6 py-8 shadow-xl flex items-center justify-center p-2 bg-indigo-500  ">
+    <div className=' absolute  left-1/2 -translate-x-1/2 bottom-[0px] translate-y-1/2  lg:mt-6 flex flex-col lg:flex-row gap-y-2 lg:gap-y-0  lg:gap-x-4'>
+        <div className="bg-white dark:bg-slate-800 w-[330px] pt-5 pb-5  px-6 py-8 shadow-xl flex items-center justify-center p-2  ">
             <img src="/icon.png" alt=""/>
             <div className='ml-4'>
                 <h3 className="  font-medium ">Lowest Price</h3>
@@ -17,7 +17,7 @@ function Header() {
             </div>
         </div>
 
-        <div className="bg-white dark:bg-slate-800 w-[330px] pt-5 pb-5  px-6 py-8 shadow-xl flex items-center justify-center p-2 bg-indigo-500  ">
+        <div className="bg-white dark:bg-slate-800 w-[330px] pt-5 pb-5  px-6 py-8 shadow-xl flex items-center justify-center p-2   ">
         <img src="/icon.png" alt=""/>
         <div className='ml-4'>
             <h3 className="  font-medium ">Lowest Price</h3>
@@ -25,7 +25,7 @@ function Header() {
         </div>
         </div>
 
-        <div className="bg-white dark:bg-slate-800 w-[330px] pt-5 pb-5  px-6 py-8 shadow-xl flex items-center justify-center p-2 bg-indigo-500  ">
+        <div className="bg-white dark:bg-slate-800 w-[330px] pt-5 pb-5  px-6 py-8 shadow-xl flex items-center justify-center p-2   ">
             <img src="/icon.png" alt=""/>
             <div className='ml-4'>
                 <h3 className="  font-medium ">Lowest Price</h3>
